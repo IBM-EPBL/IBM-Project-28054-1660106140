@@ -1,0 +1,122 @@
+.uregister-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.uregister-header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  background-color: #ffd439;
+}
+.uregister-text {
+  font-size: 46px;
+  align-self: center;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+}
+.uregister-text01 {
+  top: 26px;
+  right: 0px;
+  position: absolute;
+  font-size: 24px;
+  align-self: center;
+  transition: 0.3s;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+}
+.uregister-text01:hover {
+  color: #ffffff;
+}
+.uregister-text02 {
+  top: 26px;
+  right: 164px;
+  bottom: 0px;
+  position: absolute;
+  font-size: 24px;
+  transition: 0.3s;
+}
+.uregister-text02:hover {
+  color: #ffffff;
+}
+.uregister-hero {
+  width: 1100px;
+  height: 907px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.uregister-image {
+  left: 0px;
+  width: 534px;
+  bottom: -18px;
+  height: 894px;
+  margin: auto;
+  opacity: 1;
+  position: absolute;
+  margin-top: auto;
+  object-fit: cover;
+}
+.uregister-container1 {
+  top: 0px;
+  flex: 0 0 auto;
+  right: 0px;
+  width: 597px;
+  bottom: 0px;
+  height: 480px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+}
+.uregister-text05 {
+  top: 135px;
+  left: 90px;
+  position: absolute;
+  font-size: 24px;
+  text-align: right;
+}
+.uregister-text14 {
+  align-self: center;
+}
+.uregister-form {
+  top: 76px;
+  left: 228px;
+  width: 395px;
+  height: 372px;
+  position: absolute;
+}
+.uregister-textinput {
+  top: 51px;
+  left: 0px;
+  position: absolute;
+}
+.uregister-textinput1 {
+  top: 166px;
+  left: 0px;
+  position: absolute;
+}
+.uregister-textinput2 {
+  top: 108px;
+  left: 0px;
+  position: absolute;
+}
+.uregister-button {
+  top: 242px;
+  left: 167px;
+  position: absolute;
+  transition: 0.3s;
+}
+.uregister-button:hover {
+  color: #ffffff;
+  border-color: #ffd439;
+  background-color: #ffd439;
+}
